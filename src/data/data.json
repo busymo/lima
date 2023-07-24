@@ -1,0 +1,165 @@
+{
+  "Header": {
+    "title": "Willkommen bei LIMA!",
+    "paragraph": "Wir sind Ihre vertrauenswürdigen Experten für hochwertige Bodenpflege und Reinigungsdienste. Erleben Sie die Verwandlung Ihrer Räumlichkeiten durch unser erfahrenes Team und modernste Technologie. Kontaktieren Sie uns jetzt für ein kostenloses Angebot und lassen Sie uns Ihrem Boden neuen Glanz verleihen!"
+  },
+  "About": {
+    "paragraph": "Entdecken Sie Boden und Reinigung Meister - Ihr verlässlicher Partner für herausragende Bodenpflege und erstklassige Reinigungsdienste. Unser erfahrenes Team bietet Ihnen Expertise, außergewöhnlichen Kundenservice und umweltfreundliche Praktiken. Kontaktieren Sie uns jetzt und erleben Sie die Meisterklasse der Reinigung!",
+    "Why": [
+      "Unerreichte Kompetenz",
+      "Hochmoderne Ausrüstung",
+      "Maßgeschneiderte Lösungen",
+      "Zuverlässig und pünktlich"
+    ],
+    "Why2": [
+      "Kundenzufriedenheit",
+      "Vollständig versichert und lizenziert",
+      "Umfassende Reinigungslösungen",
+      "Umweltbewusste Praktiken"
+    ]
+  },
+  "Gallery": [
+    {
+      "image": "img/portfolio/01-large.jpg",
+      "caption": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "2",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "3",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "4",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "5",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "6",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "7",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "8",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "9",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "name": "Bodeninstallation - Fachmännisch, Präzise und Schön",
+      "text": "Die Bodeninstallation ist unsere Leidenschaft und Ihr Garant für einen perfekten Bodenbelag. Mit großer Sorgfalt bereiten wir den Untergrund vor und schneiden die Bodenbeläge präzise zu, um ein harmonisches Gesamtbild zu schaffen."
+    },
+    {
+      "name": "Bodenreparatur - Fachkundig, Zuverlässig und Effizient",
+      "text": "Unsere Bodenreparatur ist die Lösung für beschädigte oder abgenutzte Böden. Mit Fachkenntnissen und Erfahrung beheben wir Schäden aller Art, um Ihren Boden in neuem Glanz erstrahlen zu lassen."
+    },
+    {
+      "name": "Professionelle Reinigung - Gründlich, Zuverlässig und Glanzvoll",
+      "text": "Unsere professionelle Reinigung verwandelt Ihre Räumlichkeiten in strahlend saubere und hygienische Umgebungen. Mit großer Sorgfalt und Hingabe kümmern wir uns um die Reinigungsdetails, um ein tadelloses Ergebnis zu erzielen."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "Wibbeltstraße 2a, 48683, Ahaus, Deutschland",
+    "phone": "+49 176 345 961 72",
+    "email": "lima_bodenleger_reinigung@web.de",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    }
+  ]
+}

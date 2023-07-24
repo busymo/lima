@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/busymo.github.io/static/css/main.b06aff44.css",
+    "main.js": "/busymo.github.io/static/js/main.3431780e.js",
+    "index.html": "/busymo.github.io/index.html",
+    "static/media/sprite.svg": "/busymo.github.io/static/media/sprite.3a948cdecf439a8b4fe522a7d7ef8ad7.svg",
+    "main.b06aff44.css.map": "/busymo.github.io/static/css/main.b06aff44.css.map",
+    "main.3431780e.js.map": "/busymo.github.io/static/js/main.3431780e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b06aff44.css",
+    "static/js/main.3431780e.js"
+  ]
+}
