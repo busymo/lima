@@ -4,12 +4,11 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import sprite from "../sprite.svg";
 
 const images = [
-  "img/portfolio/01-large.jpg",
-  "img/portfolio/02-large.jpg",
-  "img/portfolio/03-large.jpg",
-  "img/portfolio/04-large.jpg",
-  "img/portfolio/05-large.jpg",
-  "img/portfolio/06-large.jpg",
+  "img/portfolio/img1.jpg",
+  "img/portfolio/img2.jpg",
+  "img/portfolio/img3.jpg",
+  "img/portfolio/img4.jpg",
+  "img/portfolio/img5.jpg"
 ];
 
 function funx(data) {

@@ -1,6 +1,6 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import emailjs from "emailjs-com";
-import React from "react";
+// import './agb_lima.pdf'; // Replace with your PDF file path
 
 const initialState = {
   name: "",
@@ -8,8 +8,15 @@ const initialState = {
   message: "",
 };
 
+const agb = "agb_lima.pdf"
+
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
+  const [pdfViewerOpen, setPdfViewerOpen] = useState(false); // State to track PDF viewer open/close
+
+  const openAgbPdf = () => {
+    window.open(agb, '_blank'); // Open the AGB PDF in a new tab or window
+  };
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -148,12 +155,19 @@ export const Contact = (props) => {
         </div>
       </div>
       <div id="footer">
+
         <div className="container text-center">
+          <p>
+          <p>
+            <button onClick={openAgbPdf}>AGB</button>
+          </p>
+          </p>
           <p>
             Copywright &copy;{new Date().getFullYear()} busymo
           </p>
         </div>
       </div>
+      {/* ... */}
     </div>
   );
 };

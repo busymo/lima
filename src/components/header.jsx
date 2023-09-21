@@ -1,9 +1,10 @@
 import React from "react";
+// import "./header.css"; // import the CSS file for styling
 
 export const Header = (props) => {
   return (
     <header id="header">
-      <div className="intro">
+      <div className="intro" fluid>
         <div className="overlay">
           <div className="container">
             <div className="row">
