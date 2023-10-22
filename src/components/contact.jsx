@@ -1,21 +1,23 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
-// import './agb_lima.pdf'; // Replace with your PDF file path
-
-const initialState = {
-  name: "",
-  email: "",
-  message: "",
-};
 
 const agb = "agb_lima.pdf"
+const impressum  = "impressum.pdf"
+const initialState = {
+  "name": "",
+  "email": "",
+  "message": ""
 
+}
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
-  const [pdfViewerOpen, setPdfViewerOpen] = useState(false); // State to track PDF viewer open/close
 
   const openAgbPdf = () => {
     window.open(agb, '_blank'); // Open the AGB PDF in a new tab or window
+  };
+
+  const openImpressumPdf = () => {
+    window.open(impressum, '_blank'); // Open the AGB PDF in a new tab or window
   };
 
   const handleChange = (e) => {
@@ -26,18 +28,29 @@ export const Contact = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, message);
-    emailjs.init("limabodenundreinigung@gmail.com","hnletpszgclphlqs");
+    const emailParams = {
+      name: name,
+      message: message,
+      email: email,
+    };
+
+    emailjs.init("a2-6xj4pwpkzAQV1E");
+    
+    // Send email
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "lima_bodeleger_reinigung@web.de")
-      .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
-        },
-        (error) => {
-          console.log(error.text);
-        }
+    .send(
+      "service_aqy6ty9",
+      "template_kxt0ybq",
+      emailParams
+    )
+    .then(
+      (result) => {
+        console.log("Email sent successfully:", result.text);
+        clearState();
+      },
+      (error) => {
+        console.error("Email sending error:", error.text);
+      }  
       );
   };
   return (
@@ -49,19 +62,18 @@ export const Contact = (props) => {
               <div className="section-title">
                 <h2>Kontakt aufnehmen</h2>
                 <p>
-                Bitte füllen Sie das untenstehende Formular aus, um uns eine E-Mail zu senden. Wir werden uns so schnell wie möglich bei Ihnen melden.
+                Bitte füllen Sie das untenstehende Formular aus, Kontakt mit uns aufzunehmen. Wir werden uns so schnell wie möglich bei Ihnen melden.
                 </p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+              <form name="sentMessage" onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
                       <input
                         type="text"
-                        id="name"
                         name="name"
                         className="form-control"
-                        placeholder="Name"
+                        placeholder="Namen"
                         required
                         onChange={handleChange}
                       />
@@ -129,7 +141,7 @@ export const Contact = (props) => {
               </p>
             </div>
           </div>
-          {/* <div className="col-md-12">
+          <div className="col-md-12">
             <div className="row">
               <div className="social">
                 <ul>
@@ -139,19 +151,19 @@ export const Contact = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
+                    <a href={props.data ? props.data.instagram : "/"}>
+                      <i className="fa fa-instagram"></i>
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href={props.data ? props.data.youtube : "/"}>
                       <i className="fa fa-youtube"></i>
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
       <div id="footer">
@@ -160,6 +172,7 @@ export const Contact = (props) => {
           <p>
           <p>
             <button onClick={openAgbPdf}>AGB</button>
+            <button onClick={openImpressumPdf}>IMPRESSUM</button>
           </p>
           </p>
           <p>

@@ -208,13 +208,34 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/bg-image.jpg) center center no-repeat;
+  background: url(../img/bg-image.jpg) no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  background-size: cover;
   -o-background-size: cover;
+}
+
+@media only screen and (max-width: 768px) {
+  .intro h1 {
+    font-size: 60px;
+  }
+  .intro p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .intro h1 {
+    font-size: 40px;
+  }
+  .intro p {
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);

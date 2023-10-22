@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import sprite from "../sprite.svg";
+import '../Carousel.css'; 
 
 const images = [
   "img/portfolio/img1.jpg",
@@ -13,23 +14,17 @@ const images = [
 
 function funx(data) {
   return (
-    <div className="box">
-      <Carousel 
+    <div className="box" >
+      <Carousel pauseOnHover
       useKeyboardArrows={true} 
       autoPlay={true} 
-      interval={2000} 
+      interval={4000} 
       stopOnHover={true} 
-      style={{
-        textAlign: "center",
-        maxWidth: "850px",
-        maxHeight: "500px",
-        margin: "40px auto"
-      }}
       infiniteLoop={true}>
         {images.map((URL, index) => (
-          <div className="slide">
-            <img alt="sample_file" src={URL} key={index} />
-          </div>
+          <div key={index} className="slide">
+          <img alt="sample_file" src={URL} className="carousel-image" />
+        </div>
         ))}
       </Carousel>
     </div>
@@ -54,7 +49,7 @@ export const Gallery = (props) => {
           Unten sehen Sie einige unserer jüngsten Arbeiten für verschiedene Kunden:
           </p>
         </div>            
-        <div className="row">
+        <div className="row" >
           <div className="portfolio-items">
             {funx(props.data)}
           </div>
