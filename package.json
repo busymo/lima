@@ -1,5 +1,6 @@
 {
-  "name": "landingpage-react-template",
+  "name": "lima_bodenleger_reinigung",
+  "homepage": "https://busymo.github.io/lima/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
