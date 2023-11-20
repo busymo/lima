@@ -1,6 +1,6 @@
 {
   "name": "lima_bodenleger_reinigung",
-  "homepage": "www.lima-bodenleger-reinigung.de/",
+  "homepage": "https://busymo.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
