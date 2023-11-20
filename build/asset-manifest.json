@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/lima/static/css/main.643e5445.css",
-    "main.js": "/lima/static/js/main.390881fd.js",
-    "index.html": "/lima/index.html",
-    "static/media/sprite.svg": "/lima/static/media/sprite.3a948cdecf439a8b4fe522a7d7ef8ad7.svg",
-    "main.643e5445.css.map": "/lima/static/css/main.643e5445.css.map",
-    "main.390881fd.js.map": "/lima/static/js/main.390881fd.js.map"
+    "main.css": "/www.lima-bodenleger-reinigung.de/static/css/main.643e5445.css",
+    "main.js": "/www.lima-bodenleger-reinigung.de/static/js/main.be7595cb.js",
+    "index.html": "/www.lima-bodenleger-reinigung.de/index.html",
+    "static/media/sprite.svg": "/www.lima-bodenleger-reinigung.de/static/media/sprite.3a948cdecf439a8b4fe522a7d7ef8ad7.svg",
+    "main.643e5445.css.map": "/www.lima-bodenleger-reinigung.de/static/css/main.643e5445.css.map",
+    "main.be7595cb.js.map": "/www.lima-bodenleger-reinigung.de/static/js/main.be7595cb.js.map"
   },
   "entrypoints": [
     "static/css/main.643e5445.css",
-    "static/js/main.390881fd.js"
+    "static/js/main.be7595cb.js"
   ]
 }
