@@ -1,0 +1,169 @@
+{
+  "Header": {
+    "title": "Willkommen bei LIMA!",
+    "paragraph": "Wir sind Ihre vertrauenswürdigen Experten für hochwertige Bodenlegetätigkeiten und Reinigungsdienste. Erleben Sie die Verwandlung Ihrer Räumlichkeiten durch unser erfahrenes Team und den Einsatz modernster Technologie. Kontaktieren Sie uns jetzt für ein kostenloses Angebot und lassen Sie uns Ihrem Boden neuen Glanz verleihen!"
+  },
+  "About": {
+    "paragraph": "Entdecken Sie Lima - Ihr verlässlicher Partner für herausragende Bodenlegetätigkeiten und erstklassige Reinigungsdienste. Unser erfahrenes Team bietet Ihnen Expertise, außergewöhnlichen Kundenservice und umweltfreundliche Praktiken. Kontaktieren Sie uns jetzt und erleben Sie die Meisterklasse der Reinigung!",
+    "Why": [
+      "Unerreichte Kompetenz",
+      "Hochmoderne Ausrüstung",
+      "Maßgeschneiderte Lösungen",
+      "Zuverlässig und pünktlich"
+    ],
+    "Why2": [
+      "Kundenzufriedenheit",
+      "Umfassende Reinigungslösungen",
+      "Umweltbewusste Arbeitsweise"
+    ]
+  },
+  "Gallery": [
+    {
+      "image": "img/portfolio/01-large.jpg",
+      "caption": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "2",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "3",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "4",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "5",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "6",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "7",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "8",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "9",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "name": "Bodeninstallation - Fachmännisch, Präzise und Schön",
+      "text": "Die Bodeninstallation ist unsere Leidenschaft. Ein perfekter Bodenbelag ist Ihnen damit garantiert. Mit großer Sorgfalt bereiten wir den Untergrund vor und schneiden die Bodenbeläge präzise zu, um ein harmonisches Gesamtbild zu schaffen."
+    },
+    {
+      "name": "Bodenreparatur - Fachkundig, Zuverlässig und Effizient",
+      "text": "Unsere Bodenreparatur ist die Lösung für beschädigte oder abgenutzte Böden. Mit Fachkenntnissen und Erfahrung beheben wir Schäden aller Art, um Ihren Boden in neuem Glanz erstrahlen zu lassen."
+    },
+    {
+      "name": "Professionelle Reinigung - Gründlich und Glanzvoll",
+      "text": "Unsere professionelle Reinigung verwandelt Ihre Räumlichkeiten in strahlend saubere und hygienische Umgebungen. Mit großer Sorgfalt und Hingabe kümmern wir uns um die Reinigung und erzielen so ein tadelloses Ergebnis."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "Wibbeltstraße 2a, 48683, Ahaus, Deutschland",
+    "phone": "+49 176 345 961 72",
+    "email": "lima_bodenleger_reinigung@web.de",
+    "facebook": "https://www.facebook.com/profile.php?id=61550299186559",
+    "instagram": "https://www.instagram.com/limabodenleger/",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    }
+  ],
+  "AGB":{
+    
+    "title" : "ALLGEMEINE GESCHÄFTSBEDINGUNGEN (AGB) FÜR DIE FIRMA LIMA",
+    "paragraph" : "Die Bodeninstallation ist unsere Leidenschaft und Ihr Garant für einen perfekten Bodenbelag. Mit großer Sorgfalt bereiten wir den Untergrund vor und schneiden die Bodenbeläge präzise zu, um ein harmonisches Gesamtbild zu schaffen.\n              \n              1. Geltungsbereich\n              Die folgenden Allgemeinen Geschäftsbedingungen (AGB) regeln die Geschäftsbeziehung zwischen der Firma LIMA, vertreten durch den Inhaber Arjel Manjani, nachfolgend 'Anbieter' genannt, und den Kunden im Bereich bodenleger und reinigung. Abweichende Bedingungen des Kunden werden nicht anerkannt, es sei denn, der Anbieter stimmt ihrer Geltung ausdrücklich schriftlich zu.\n              \n              2. Leistungen und Angebote\n              Der Anbieter erbringt Leistungen im Bereich bodenleger und reinigung gemäß den vereinbarten Aufträgen. Angebote des Anbieters sind freibleibend und unverbindlich.\n              \n              3. Vertragsschluss\n              Der Vertrag kommt durch schriftliche Vereinbarung oder mündliche Absprache zustande. Die Auftragsbestätigung des Anbieters bildet die Grundlage für die Leistungserbringung.\n              \n              4. Preise und Zahlungsbedingungen\n              Die Preise richten sich nach den individuellen Auftragsdetails. Zahlungen sind innerhalb von 14 Tagen nach Rechnungsstellung ohne Abzüge fällig. Bei Zahlungsverzug ist der Anbieter berechtigt, Verzugszinsen in Höhe von X % über dem Basiszinssatz zu verlangen.\n              \n              5. Stornierung und Rücktritt\n              Der Kunde kann den Auftrag bis X Tage vor dem vereinbarten Termin kostenfrei stornieren. Danach behält sich der Anbieter vor, eine Stornogebühr in Höhe von X % des Auftragswertes zu erheben.\n              \n              6. Haftung\n              Der Anbieter haftet nur für Vorsatz und grobe Fahrlässigkeit. Jegliche Schadensersatzansprüche sind auf den Auftragswert begrenzt.\n              \n              7. Datenschutz\n              Die vom Kunden übermittelten Daten werden zur Abwicklung des Auftrags und zu internen Zwecken verwendet. Eine Weitergabe an Dritte erfolgt nicht, es sei denn, dies ist zur Auftragserfüllung erforderlich.\n              \n              8. Gerichtsstand und anwendbares Recht\n              Für Streitigkeiten aus oder im Zusammenhang mit diesen AGB gilt ausschließlich deutsches Recht. Gerichtsstand ist der Sitz des Anbieters.\n              \n              9. Salvatorische Klausel\n              Sollten einzelne Bestimmungen dieser AGB unwirksam sein oder werden, bleibt die Gültigkeit der übrigen Bestimmungen unberührt. Anstelle der unwirksamen Bestimmungen tritt eine Regelung, die dem wirtschaftlichen Zweck am nächsten kommt.\n              \n              10. Änderungen der AGB\n              Der Anbieter behält sich das Recht vor, diese AGB jederzeit mit Wirkung für die Zukunft zu ändern. Kunden werden rechtzeitig über Änderungen informiert und haben das Recht, bei Nichtakzeptanz der geänderten AGB den Vertrag fristlos zu kündigen.\n              \n              Für die Firma LIMA:\n              Inhaber: Arjel Manjani"
+  }
+}

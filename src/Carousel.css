@@ -1,0 +1,12 @@
+.slide {
+    height: 384; /* Adjust the height as needed */
+    width:  100%;
+  }
+
+  .carousel-image {
+    /* Adjust the image size as needed */
+    max-width: 500px; /* Allows the image to scale down to the width of the parent container */
+    max-height: 500px; /* Adjust the maximum height as needed */
+  }
+
+
